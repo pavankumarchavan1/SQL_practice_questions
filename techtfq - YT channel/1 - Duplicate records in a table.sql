@@ -1,3 +1,5 @@
+/*Write a SQL Query to fetch all the duplicate records in a table.*/
+
 CREATE TABLE users
 (
 user_id INT PRIMARY KEY,
@@ -15,7 +17,7 @@ INSERT INTO query1.users VALUES
 
 SELECT * FROM query1.users;
 
-/*Write a SQL Query to fetch all the duplicate records in a table.*/
+
 SELECT user_id, user_name, email
 FROM (SELECT *,
 		ROW_NUMBER() OVER(PARTITION BY user_name ORDER BY user_id) AS rn
