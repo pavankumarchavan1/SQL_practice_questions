@@ -16,7 +16,7 @@ apple	samsung	2020	1		2		1		2
 apple	samsung	2021	1		2		5		3
 samsung	apple	2021	5		3		1		2
 oneplus	nothing	2020	5		9		6		3
-google			2020	5		9				
+google		2020	5		9		-		-
 
 */
 
